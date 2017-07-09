@@ -1,3 +1,1 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/znicholasbrown/pen/GmdjVw.
-
- 
+An application of the wikimedia API as a single-page wikipedia search engine. Limited to 10 results. 
