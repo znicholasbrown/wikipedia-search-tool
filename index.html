@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Search Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans|Overpass+Mono'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Titillium+Web:300'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<div class="pageCent">
+<div class="contCent">
+  <div>
+    <div class="one">
+    <div id="theIntro">
+      The Wikipedia search tool.
+    </div><br>
+    <div id="theContent">
+      <div >
+        <input id="search" type="text" name="wikisearch" placeholder="Search Wikipedia" onkeypress="enterScript(event)">
+        
+          <button id="reset" class="fa fa-times fa-lg" aria-hidden="true"></button>
+
+      </div>
+      </div>
+    </div>
+    <br>
+    <a id="lucky"  href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+      I'm feeling lucky.
+      </a>
+
+  </div>
+</div>
+</div>
+
+<div id="theResults">
+  <div id="results">
+  </div>
+</div>
+<div class="pageCent1">
+<p class="contCent">Designed by <a href="https://codepen.io/znicholasbrown/" style="font-weight: bold">Z Nicholas Brown</a></p></div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
